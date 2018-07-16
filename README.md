@@ -48,5 +48,5 @@ pip install -r requirements.txt
 # start server
 gunicorn server:app --bind 0.0.0.0 -D
 
-# navigate to links
+# navigate to link to access swagger
 elinks://http:(ip addr):8000/apidocs
