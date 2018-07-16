@@ -1,0 +1,10 @@
+{
+        "tags": ["Default"],
+        "responses": {
+                "200": {
+                        "description": "Server Ack"
+                }
+        }
+}
+
+

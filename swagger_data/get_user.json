@@ -1,0 +1,19 @@
+{
+        "tags": ["Get Users"],
+		"paths": "/user_id",
+        "parameters": [{
+                "name": "user_id",
+                "in":"path",
+                "required": true,
+                "description": "Enter the user_id you want to fetch",
+				"default": 1
+        	}
+		],
+        "responses": {
+                "200": {
+                        "description": "User Found"
+                }
+        }
+}
+
+

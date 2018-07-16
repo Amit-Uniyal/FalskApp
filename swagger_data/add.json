@@ -1,0 +1,24 @@
+{
+        "tags": ["Add User"],
+        "parameters": [{
+				"name": "json body",
+				"in": "body",
+				"required": true,
+				"description": "Add the json body",
+				"enum": ["firstname", "lstname", "username"], 
+				"example": {
+					"username": "alpha",
+					"firstname": "marcus",
+					"lastname":"rastogi"
+
+				}
+			}
+		],
+        "responses": {
+                "200": {
+                        "description": "User get Aded"
+                }
+        }
+}
+
+

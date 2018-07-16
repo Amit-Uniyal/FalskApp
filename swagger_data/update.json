@@ -1,0 +1,31 @@
+{
+        "tags": ["Update User"],
+		"paths": "/username",
+        "parameters": [{
+                "name": "username",
+                "in":"path",
+                "required": true,
+                "description": "Enter the username you want to update",
+				"default": "username"
+
+        	},
+			{
+				"name": "json body",
+				"in": "body",
+				"required": true,
+				"description": "Add the json body",
+				"example": {
+					"firstname": "new_firstname",
+					"lastname": "new_lastname",
+					"username": "new_username" 
+				}
+			}
+		],
+        "responses": {
+                "200": {
+                        "description": "User get updated"
+                }
+        }
+}
+
+

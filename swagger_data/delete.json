@@ -1,0 +1,19 @@
+{
+        "tags": ["Delete User"],
+		"paths": "/username",
+        "parameters": [{
+                "name": "username",
+                "in":"path",
+                "required": true,
+                "description": "Enter the username you want to Delete",
+				"default": "temp"
+        	}
+		],
+        "responses": {
+                "200": {
+                        "description": "User get deleted"
+                }
+        }
+}
+
+

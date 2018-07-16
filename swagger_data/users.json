@@ -1,0 +1,10 @@
+{
+        "tags": ["Get Users"],
+        "responses": {
+                "200": {
+                        "description": "Get all users"
+                }
+        }
+}
+
+
